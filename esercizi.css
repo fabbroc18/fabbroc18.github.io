@@ -1,0 +1,61 @@
+body {
+    margin: 0;
+    background-color: black;
+    font-family: Arial, sans-serif;
+}
+
+#game-container {
+    position: relative;
+    width: 400px;
+    height: 400px;
+    margin: 30px auto;
+    background-color: black;
+    overflow: hidden;
+    border: 2px solid white;
+}
+
+#bird {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-color: yellow;
+    top: 150px;
+    left: 100px;
+    border-radius: 50%;
+}
+
+.pipe {
+    background-color: green; /* colore dei tubi */
+    width: 50px;
+    height: 100%; /* altezza del tubo */
+    position: absolute;
+}
+
+.pipe-top {
+    top: 0;
+}
+
+.pipe-bottom {
+    bottom: 0;
+}
+
+#score {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: white;
+    font-size: 24px;
+}
+
+#controls {
+    margin-top: 10px;
+    text-align: center;
+}
+
+#hack-input {
+    margin-left: 10px;
+    padding: 4px;
+}.pipe-green {
+    background-color: green;
+    width: 50px;
+}

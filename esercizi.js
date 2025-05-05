@@ -13,6 +13,10 @@ let hacks = {
     triple: false,
     tiny: false,
 };
+document.addEventListener("touchstart", function(event) {
+    event.preventDefault();
+    jump();
+});
 
 document.addEventListener("keydown", () => {
     if (!paused && !gameOver) {

@@ -126,7 +126,7 @@ function activateHack() {
             alert("Immortalità attivata!");
             break;
         case "triple":
-            hacks.triple = false;
+            hacks.triple = true;
             alert("Punti tripli attivati!");
             break;
         case "tiny":

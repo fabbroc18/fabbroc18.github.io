@@ -9,9 +9,9 @@ let gameOver = false;
 let score = 0;
 let pipes = [];
 let hacks = {
-    immortal: ,
-    triple: , 
-    tiny: ,
+    immortal: false,
+    triple: false, 
+    tiny: false,
 };
 document.addEventListener("touchstart", function(event) {
     event.preventDefault();
